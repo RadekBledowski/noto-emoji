@@ -1,5 +1,5 @@
 ![Noto](images/noto.png)
-# Noto Emoji
+# Noto Emoji Plus
 Color and Black-and-White Noto emoji fonts, and tools for working with them.
 
 ## Prerequisites
@@ -8,6 +8,8 @@ Building Noto Color Emoji requires:
 - [pkg-config](https://www.freedesktop.org/wiki/Software/pkg-config/)
 - [pngquant](https://pngquant.org/)
 - [zopflipng](https://github.com/google/zopfli)
+- [cario.h](https://www.cairographics.org/download/)
+- [imagemagick] (https://imagemagick.org/index.php)
 
 ## Building NotoColorEmoji
 This project uses a virtual environment to manage dependencies. Use the following steps to get up and running:
@@ -48,12 +50,6 @@ particular the flag images in the font are PNG images to which transforms have
 been applied to standardize the size and generate the wave and border shadow.  We
 do not have SVG versions that reflect these transforms.
 
-## B/W emoji font
-
-The black-and-white emoji font is not under active development.  Its repertoire of
-emoji is now several years old, and the design does not reflect the current color
-emoji design.  Currently we have no plans to update this font.
-
 ## License
 
 Emoji fonts (under the fonts subdirectory) are under the
@@ -66,8 +62,3 @@ otherwise exempt from copyright ([more info](third_party/region-flags/LICENSE)).
 
 Please read [CONTRIBUTING](CONTRIBUTING.md) if you are thinking of contributing to this project.
 
-## News
-
-* 2017-09-13: Emoji redesign released.
-* 2015-12-09: Unicode 7 and 8 emoji image data (.png format) added.
-* 2015-09-29: All Noto fonts now licensed under the SIL Open Font License.
